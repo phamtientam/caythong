@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     })
   });
 
+setInterval(function(){
+  window.location.reload()
+},10000)
+
 function NextPage(){
   setTimeout(function(){
     window.location.href = "index.html"
